@@ -1012,6 +1012,16 @@
 #define USE_SERIAL_TELEMETRY
 #endif
 
+#ifdef FISHPV_15A_F421
+#define FIRMWARE_NAME "FISHPV_15A_F421"
+#define FILE_NAME "FISHPV_15A_F421"
+#define DEAD_TIME 50
+#define HARDWARE_GROUP_AT_B
+#define HARDWARE_GROUP_AT_045
+#define VOLTAGE_ADC_CHANNEL ADC_CHANNEL_6
+#define VOLTAGE_ADC_PIN GPIO_PINS_6
+#endif
+
 /****************************************Generic********************************************/
 
 #ifdef AT32PB4_054_F421
